@@ -11,13 +11,11 @@
     "react-select": "^5.2.0"
   },
 
- "scripts": {
-    
-   "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-   "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-   "test": "react-scripts test",
-  "eject": "react-scripts eject"
- },
+"scripts": {
+  "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
+},
+
 
   
 
